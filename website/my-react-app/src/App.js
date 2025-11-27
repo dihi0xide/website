@@ -81,8 +81,8 @@ export default function Board() {
       tempsquares[xi][yi] = new SqInfo(null,false,xi,yi);
     }
   }
-let user1 = 'test1'
-let user2 = 'test2'
+let user1 = 'Yellow'
+let user2 = 'Red'
 let tempplayerturn = new PlayerInfo('p1', 'yellow', user1)
 
 const search = window.location.search;
